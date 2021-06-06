@@ -25,11 +25,15 @@ You need to implement following five commands
 * rm removes a directory or a path
 * mkdir creates a directory
 * cd changes the present working directory
-* import imports a le from the host system to the path specified in the arguments.
+* imports a file from the host system to the path specified in the arguments.
 
 
 Diretory tree and FCBs can be implemented using JSON as discussed in the lecture. In the JSON there will be three types of keys
 * Keys with no value: they will represent empty directories
-* Keys with dictionary value: they will represent a directories containing one or more directories or les
-* Keys with integer value: they will represent a le control block, integer being the starting data block number.
+* Keys with dictionary value: they will represent a directories containing one or more directories or files
+* Keys with integer value: they will represent a file control block, integer being the starting data block number.
+
+
+# How to Run:
+A detailed report is attached in which step by step detailed instruction is given how to Run the file system.
 
